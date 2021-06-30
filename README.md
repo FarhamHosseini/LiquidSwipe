@@ -1,0 +1,2 @@
+# LiquidSwipe
+Android LiquidSwipe Library
