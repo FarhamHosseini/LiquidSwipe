@@ -81,7 +81,7 @@ viewpager.setOnTouchListener { _, event ->
 2. In the `PagerAdapter`
 ```kotlin
 // Set the layout's clipPathProvider to the corresponding `Customize`
-(layout as? LiquidSwipeLayout)?.clipPathProvider = Customize[position]
+(layout as? Layout)?.clipPathProvider = Customize[position]
 ```
 
 ## Bugs and Feedback
