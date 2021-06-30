@@ -25,10 +25,10 @@ class ViewPager : ViewPager {
 
     attrs?.let {
       val typedArray =
-        context.obtainStyledAttributes(it, R.styleable.LiquidSwipeViewPager, 0, 0)
+        context.obtainStyledAttributes(it, R.styleable.ViewPager, 0, 0)
       typedArray.apply {
         scrollerDuration = getInt(
-          R.styleable.LiquidSwipeViewPager_scrollerDuration,
+          R.styleable.ViewPager_scrollerDuration,
           DEFAULT_SCROLLER_DURATION
         )
       }
