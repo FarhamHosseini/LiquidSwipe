@@ -17,6 +17,10 @@ allprojects {
 implementation group: 'com.apachat', name: 'liquidswipe-android', version: '1.10.6'
 ```
 
+Badge:
+-----
+[![Maven Central](https://img.shields.io/maven-central/v/com.apachat/liquidswipe-android.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.apachat%22%20AND%20a:%22liquidswipe-android%22)
+
 #### Use `ViewPager` instead of the normal `ViewPager`
 ```
 <androidx.constraintlayout.widget.ConstraintLayout 
